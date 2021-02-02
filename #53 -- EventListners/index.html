@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>LOL</h1>
+    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt fuga, fugit provident molestias ducimus ab commodi quibusdam odio qui maiores sunt architecto. Exercitationem repudiandae saepe dolore quaerat debitis praesentium quos?
+    Voluptas earum reiciendis ut, ullam iste sed iusto quos repellat distinctio praesentium quas, non consequuntur similique culpa, odit facere molestias ea quibusdam? Dolorum aut culpa at, doloribus voluptas modi ea!
+    Praesentium amet atque, voluptatum magni magnam sunt deserunt eligendi similique repudiandae maxime saepe inventore, excepturi sint dolores cumque id numquam mollitia vitae quod ea iusto repellat. Aliquam neque quis a!
+    Dolor ut quidem accusantium dolore voluptas sunt eaque minima reprehenderit alias voluptatibus eius a accusamus sed, fugit illo aspernatur corrupti suscipit, mollitia perferendis, dolorum aut quae. Sequi dignissimos quos modi?
+    Aspernatur dignissimos, omnis saepe reprehenderit laboriosam rerum nisi animi nam nemo ex, similique natus accusamus officiis, consectetur facere numquam veniam maxime dolore excepturi aperiam nostrum. Commodi voluptatum omnis doloribus architecto.
+    Blanditiis ipsa minus doloribus deleniti quam unde cum consequatur quia saepe magnam, odit, consectetur enim, nisi ipsum voluptatibus amet optio? Maiores eaque vel velit laborum in suscipit minus est facilis!
+    Explicabo, voluptas. Sed rem natus laudantium, quia fuga earum voluptas consequatur quisquam ipsam reiciendis recusandae aspernatur! Quisquam id dicta possimus tempora laboriosam hic impedit dolore distinctio officia, consequatur quod deleniti!
+    Esse facilis odit mollitia facere? Possimus perferendis eligendi, officia obcaecati nulla accusantium facilis cumque explicabo dicta alias ipsa atque asperiores error vel. Adipisci minima quis architecto esse nulla amet a.
+    Nam maxime dolore provident. Cumque illum fugiat, mollitia totam illo tempore deserunt obcaecati, repudiandae eos qui ea sed, ipsam distinctio officia? Ullam ut sequi exercitationem autem illo molestiae, eos suscipit!
+    Saepe tenetur laborum est debitis reprehenderit, inventore, eligendi, provident dolorem perferendis rerum consectetur. Corporis id similique iure vel repudiandae, eos, consequuntur laboriosam voluptatem quasi perspiciatis inventore aut eaque placeat dignissimos!
+    Nobis numquam rerum quidem dignissimos, accusantium error molestias architecto sapiente veniam illum nisi quos consequatur, suscipit explicabo voluptates maxime! Deserunt rerum officia veniam dolores veritatis voluptatem iusto ea obcaecati quae?
+    Commodi nam id recusandae amet at maxime saepe eos illum ipsum asperiores, sequi ex eligendi nemo aperiam sint consequuntur vel odit quibusdam! Voluptates pariatur recusandae dolore voluptatibus, laudantium vitae aliquid?
+    Placeat saepe voluptas atque natus porro iste, repellendus aperiam ipsum ratione doloremque explicabo et sapiente, fugiat ea quis reprehenderit asperiores ab! Assumenda deserunt error ratione adipisci soluta, delectus quibusdam saepe!
+    Doloremque quaerat odit aspernatur. Nostrum, odio! Vel maiores temporibus minus perspiciatis totam in deleniti repellat ullam at hic consequuntur illo beatae eveniet velit expedita qui repudiandae eaque illum, optio saepe?
+    Ipsum perferendis numquam, nihil minus dicta assumenda facilis doloribus ipsa est magni aliquam hic delectus animi iste ab magnam cumque doloremque nostrum dolor obcaecati ut corporis sit eius? Nihil, in.</p>
+    <button onclick="hide()" id = "btn">hide</button>
+    <script>
+        let btn = document.getElementById('btn')
+        let para = document.getElementById('para')
+
+        para.addEventListener("mouseover",function run(){
+            console.log("Left")
+        })
+        para.addEventListener("mouseout",function run(){
+            console.log("Right")
+        })
+        function hide(){
+            if(para.style.display != 'none'){
+                para.style.display = 'none'
+
+            }
+            else{
+                para.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
